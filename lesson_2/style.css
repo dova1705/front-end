@@ -1,0 +1,33 @@
+body{
+    background-color: aquamarine;
+}
+p{
+    color: green;
+}
+#test{
+    color: rgb(129, 1, 248);
+}
+.test2{
+    color: brown;
+}
+.test3{
+    font-size: 35px;
+}
+p:nth-child(3){
+    color: yellowgreen;
+    font-size: 18px;
+}
+
+.first{
+    width: 400px;
+    height: 350px;
+    border: 2px solid red;
+}
+.first_span{
+    width: 250px;
+    height: 250px;
+    border: 3px dotted green;
+}
+.bold-text{
+    font-weight: bold;
+}
