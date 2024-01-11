@@ -1,0 +1,26 @@
+.заголовок{
+    font-size: 25px;
+    text-align: center;
+    color: blueviolet;
+}
+.city_picture{
+    width: 30%;
+}
+.city{
+    font-size: 20px;
+    color: red;
+}
+.list{
+    color: blue;
+}
+.list li:nth-child(even){
+    color: green;
+    font-size: 20px;
+}
+#horse{
+    font-size: 25px;
+    text-align: center;
+}
+#picture_horse{
+    width: 35%;
+}
