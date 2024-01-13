@@ -48,3 +48,10 @@
     /* левый верхний дальше по часовой */
     border-radius: 60px 30px 0 10px;
 }
+.black-box{
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    border-radius: 50%;
+    color: aqua;
+}
