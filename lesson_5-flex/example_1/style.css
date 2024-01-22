@@ -1,0 +1,39 @@
+/*example_1*/
+.container1{
+    background-color: lightblue;
+    padding: 20px;
+    display: flex;
+    gap: 20px;
+    /*display: flex; - сообщает, что контейнер является гибким -элементы внутри будут распологаться по правилам flexbox*/
+    /* gap: 20px; - расстояние между элементами
+    можно уточнить - row-gap: ; column-gap: ; */
+    justify-content: space-between;
+    /*justify-content: ; управляет расположением элементов по основной оси (оснавная ось необязательно является горизонтальной)
+    center - элементы распологаются по центру*/
+    /*space-between - расположение элементов внутри гипкого контейнера с пустотами между элементов
+    space-around - расположение элементов внутри гипкого контейнера без краев
+    flex start - элементы рапсологаются с лева
+    flex end - элементы рапсологаются с лева*/
+    flex-direction: row;
+}
+
+.box{
+    width: 250px;
+    height: 350px;
+}
+
+.red{
+    background-color: red;
+}
+
+.container2{
+    background-color: lightpink;
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+    justify-content: center;
+}
+.green{
+    background-color: green;
+}
+
