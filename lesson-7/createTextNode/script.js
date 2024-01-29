@@ -7,3 +7,6 @@ heading_text = document.createTextNode("Продолжим изучать JS");
 heading.appendChild(heading_text);
 // прикрепил готовый заголовок к body документа
 document.body.appendChild(heading);
+// создали элемент div
+let div = document.createElement("div");
+div.innerText = "div создан с помощью js"
