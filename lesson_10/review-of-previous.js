@@ -21,3 +21,6 @@ const b6 = Boolean(undefined); // false
 const b7 = Boolean(NaN); // false
 
 ('b' + 'a' + + 'a' + 'a').toLowerCase(); // banana
+
+console.log([1,2,3] + [4,5,6]);
+// Массивы преобразуется в строки и далее мы видим результат конкетации
