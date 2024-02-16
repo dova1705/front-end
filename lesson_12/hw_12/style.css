@@ -1,0 +1,9 @@
+input{
+    width: 200px;
+    height: 20px;
+    background-color: azure;
+}
+input:focus{
+    background-color: rgba(137, 43, 226, 0.164);
+    /* box-shadow:-15px 15px 0 0 blueviolet; */
+}
