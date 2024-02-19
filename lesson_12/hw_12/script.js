@@ -9,7 +9,7 @@ const addTask = (event) => {
   // event.target             - эта вся форма
   // event.target.title       - это инпут <input type="text" placeholder="title" name="title">
   // event.target.title.value - это что пользователь ввел в инпут
-  // Получаем информацию из инпутов:
+  // Получаем информацию из инпутов: по name
   const title = event.target.title.value;
   const description = event.target.description.value;
   // Очищаем поля:
@@ -32,7 +32,7 @@ function renderTasks() {
   tasks.forEach((task) => {
     const li = document.createElement("li"); // <li></li>
     const checkBox = document.createElement("input"); // <input>
-    checkBox.type = "checkbox"; //
+    checkBox.type = "checkbox"; //установили тип инпута в чекбокс
     checkBox.checked = task.done; // этот атрибут отвечает за то - есть ли галочка внутри квадрата - true -есть
     checkBox.onclick = () => {
       // меняем статус в массиве на противоположный
