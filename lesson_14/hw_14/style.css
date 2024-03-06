@@ -1,0 +1,22 @@
+.book-card{
+    background-color: aquamarine;
+    border-radius: 15px;
+    width: 600px;
+    height: 900px;
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.card-elem{
+    padding: 10px;
+    font-size: 30px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.title{
+    font-weight: bold;
+}

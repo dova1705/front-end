@@ -1,0 +1,30 @@
+.flowers-container{
+    background-color: bisque;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+.flower-card{
+    background-color: lemonchiffon;
+    margin: 30px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.card-elem{
+    padding: 10px;
+    /* display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px; */
+    font-size: 35px;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0 0 20px;
+}
+.title{
+    font-weight: bold;
+}
