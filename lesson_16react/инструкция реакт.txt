@@ -1,0 +1,4 @@
+папка должна быть корневая
+npx create-react-app my-app --template typescript запуск пакета реакт(сборщик)
+если в проекте нет папки node_modules в терминале пишем   npm i
+							  npm start - запуск проекта
