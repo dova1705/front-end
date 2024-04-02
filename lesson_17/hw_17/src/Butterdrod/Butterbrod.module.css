@@ -1,0 +1,13 @@
+.container{
+    margin: 40px;
+}
+.btn{
+    border-radius: 40px;
+    background-color: aquamarine;
+    color: brown;
+    padding: 10px;
+    margin: 15px;
+}
+h1{
+    text-align: center;
+}
