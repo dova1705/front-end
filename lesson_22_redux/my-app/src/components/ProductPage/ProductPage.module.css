@@ -1,0 +1,26 @@
+.productTitle{
+    font-size: 65px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.bigProduct{
+    font-weight: 700;
+    width: 600px;
+}
+
+.bigProductImg{
+    width: 350px;
+    display: flex;
+    margin: 0 0 25px 0;
+}
+
+.backMenu{
+    display: inline-flex;
+    border: solid 2px blue;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: cadetblue;
+    text-decoration: none;
+    margin: 10px;
+    color:rgb(0, 0, 0);
+}
